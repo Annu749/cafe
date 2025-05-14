@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Customize Your Drink - ʙ ʀ ᴇ ᴡ  &  ʙ ʟ ᴏ ᴏ ᴍ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Persistent Cart Sidebar -->
+  <aside id="cart-sidebar">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <div id="cart-total">Total: $0.00</div>
+    <button id="checkout-btn">Checkout</button>
+  </aside>
+
+  <main class="customize-main">
+    <div id="greeting" class="centered-message">
+      <h2>Welcome to ʙ ʀ ᴇ ᴡ  &  ʙ ʟ ᴏ ᴏ ᴍ Customizer!</h2>
+      <p>Let's create your perfect drink...</p>
+    </div>
+
+    <section id="question-section" class="hidden">
+      <h2 id="question-text"></h2>
+      <div id="options-container"></div>
+      <button id="skip-btn">Skip Customization</button>
+    </section>
+
+    <section id="food-suggestion-section" class="hidden">
+      <h2>Suggested Food Items for You</h2>
+      <ul id="food-suggestions"></ul>
+      <button id="finish-btn">Finish & Add to Cart</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
